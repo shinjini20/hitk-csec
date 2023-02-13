@@ -1,0 +1,193 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    overflow-x:hidden;
+}
+.header {
+    min-height: 44vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/hitk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.text-box
+{
+    color: antiquewhite;
+    text-align:center;
+}
+.lk{
+    background-color: rgb(230, 240, 240);
+}
+
+#sb
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+#kol
+{
+    height:48vh;
+    width:93vh;
+    margin:auto;
+    
+   
+}
+#kolk
+{
+    height:48vh;  
+    width:59vh;
+    margin:auto;
+}
+/*for library6.html and library4.html file separate styling*/
+#kol1
+{
+    height:87vh;
+    width:93vh;
+    margin:auto;
+    
+   
+}
+#kolk1
+{
+    height:87vh;  
+    width:59vh;
+    margin:auto;
+}
+/*for library3.html  file separate styling*/
+#kol2
+{
+    height:61vh;
+    width:93vh;
+    margin:auto;
+    
+   
+}
+#kolk2
+{
+    height:61vh;  
+    width:59vh;
+    margin:auto;
+}
+
+/*for library1.html and library7.html  file separate styling*/
+#kol3
+{
+    height:30vh;
+    width:93vh;
+    margin:auto;
+    
+   
+}
+#kolk3
+{
+    height:30vh;  
+    width:59vh;
+    margin:auto;
+}
+
+#bang
+{
+    height:auto;
+    position:relative;
+    background-color:orangered;
+    top:-2px;
+    left:0px;
+    display:flex;
+    justify-content: center;
+
+}
+#box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(170, 69, 69);
+    
+}
+#a
+{
+   
+    width:80vh;
+    font-size:large;
+    color:white;
+    height:32vh;
+}
+#b
+{
+ 
+    width:27vh;
+    margin:auto;
+    color:white;
+    height:32vh;
+    top:5vh;
+}
+#c
+{
+   
+    width:37vh;
+    margin:auto;
+    font-size: large;
+    color:white; height:35vh;
+}
+
+
+
+.header1 {
+    min-height: 7vh;
+    width: 100%;
+    background-color:rgb(33, 51, 211);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    padding: 0% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-links {
+    flex: 1;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 14px 27px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+nav .fa {
+    display: none;
+}
